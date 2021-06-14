@@ -9,6 +9,7 @@ public class FalarDatas : MonoBehaviour
     {
         foreach(Transform t in g)
         {
+            Debug.Log("Faz aniver em:");
             Debug.Log( t.position );
         }
     }
